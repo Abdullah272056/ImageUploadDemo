@@ -32,39 +32,6 @@ public interface OurRetrofitClient {
     );
 
 
-//    @POST("api/product")
-//    @FormUrlEncoded
-//    Call<ProductDataResponse> UploadImage1(@Header("Authorization") String authorization,
-//                                           @Field("image") String image,
-//                                           @Field("name") String name,
-//                                           @Field("price") Integer price,
-//                                           @Field("sellingPrice") Integer sellingPrice,
-//                                           @Field("unit") String unit,
-//                                           @Field("stock") Integer stock,
-//                                           @Field("description") String description
-//    );
-
-
-
-
-//    @POST("api/product")
-//    @FormUrlEncoded
-//    Call<ProductDataResponse> UploadImage2(@Header("Authorization") String authorization,
-//                                           @Part File image,
-//                                           @Field("name") String name,
-//                                           @Field("price") Integer price,
-//                                           @Field("sellingPrice") Integer sellingPrice,
-//                                           @Field("unit") String unit,
-//                                           @Field("stock") Integer stock,
-//                                           @Field("description") String description
-//
-//    );
-
-
-
-//    // get customer Count
-//    @GET("api/customer/count")
-//    Call<CustomerCountResponse> getCustomerCount(@Header("Authorization") String authorization);
 
 
 }
